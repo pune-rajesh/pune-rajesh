@@ -1,0 +1,51 @@
+https://github.com/bbachi/angular-ngrx-example/blob/master/ui/src/app/login/login.component.ts
+https://medium.com/bb-tutorials-and-thoughts/how-to-implement-ngrx-store-in-angular-6ba275cd47fc
+https://www.section.io/engineering-education/how-to-build-authentication-api-with-jwt-token-in-nodejs/
+https://stackoverflow.com/questions/33707861/mongodb-data-versioning-with-search
+https://stackoverflow.com/questions/8107856/how-to-determine-a-users-ip-address-in-node
+
+//Node Mongo
+https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-mongodb?source=sl_frs_nav_playlist_video_clicked
+
+https://docs.mongodb.com/manual/core/capped-collections/
+
+//Docker
+https://www.youtube.com/watch?v=3c-iBn73dDE
+https://www.youtube.com/watch?v=hxngRDmHTM0 // nginx
+
+//cronjob
+https://pipedream.com/blog/the-simplest-way-to-run-node-code-on-a-schedule/
+https://www.youtube.com/watch?v=W1vMCB40NjY
+https://www.youtube.com/watch?v=20HDFbYyAY0
+
+https://dev.to/srinidhi/data-engineering-series-3-apache-airflow-the-modern-workflow-management-tool-what-do-you-need-to-know-78l
+
+docker-compose start
+docker ps -a
+docker exec -it container_id /bin/bash
+airflow list_dags
+airflow list_tasks dag_name
+airflow test http_get_request print_hello
+
+Run backend cmd
+docker-compose up 
+to install dependencies and create images and run container after downloading
+
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+
+Docker image building and deployment
+$ docker build -t my-app:1.0 .
+$ docker images
+$ docker run my-app:1.0
+
+$ docker stop container_id
+$ docker rm container_id
+$ docker rmi image_id
+$ docker exec -it container_id /bin/bash
+
+do aws login with aws cli
+$ docker tag image_id awsrepo/image_id 
+$ docker push awsrepo/image_id
+
+//tutorial on es and aggs, geo
+https://www.youtube.com/watch?v=e5awiVnkuEc
